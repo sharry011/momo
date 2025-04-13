@@ -1,0 +1,203 @@
+[11-Mar-2025 15:12:08 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(51): Composer\Autoload\ClassLoader->loadClass('NunoMaduro\\Coll...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('NunoMaduro\\Coll...', Array, true)
+#8 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('NunoMaduro\\Coll...', Array)
+#9 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('NunoMaduro\\Coll...', Array)
+#10 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make('NunoMaduro\\Coll...')
+#11 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(207): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole(Object(Symfony\Component\Console\Output\ConsoleOutput), Object(ErrorException))
+#12 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(189): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#13 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#15 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[11-Mar-2025 15:12:08 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(51): Composer\Autoload\ClassLoader->loadClass('NunoMaduro\\Coll...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('NunoMaduro\\Coll...', Array, true)
+#8 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('NunoMaduro\\Coll...', Array)
+#9 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('NunoMaduro\\Coll...', Array)
+#10 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make('NunoMaduro\\Coll...')
+#11 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(207): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole(Object(Symfony\Component\Console\Output\ConsoleOutput), Object(ErrorException))
+#12 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(189): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#13 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#15 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[11-Mar-2025 15:12:08 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(244): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(231): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError(Array, 0)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[11-Mar-2025 15:12:08 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(244): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(231): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError(Array, 0)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[11-Mar-2025 15:12:08 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(51): Composer\Autoload\ClassLoader->loadClass('NunoMaduro\\Coll...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('NunoMaduro\\Coll...', Array, true)
+#8 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('NunoMaduro\\Coll...', Array)
+#9 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('NunoMaduro\\Coll...', Array)
+#10 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make('NunoMaduro\\Coll...')
+#11 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(207): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole(Object(Symfony\Component\Console\Output\ConsoleOutput), Object(ErrorException))
+#12 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(189): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#13 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#15 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[11-Mar-2025 15:12:08 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(244): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(231): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError(Array, 0)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[11-Mar-2025 15:12:09 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(51): Composer\Autoload\ClassLoader->loadClass('NunoMaduro\\Coll...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('NunoMaduro\\Coll...', Array, true)
+#8 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('NunoMaduro\\Coll...', Array)
+#9 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('NunoMaduro\\Coll...', Array)
+#10 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make('NunoMaduro\\Coll...')
+#11 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(207): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole(Object(Symfony\Component\Console\Output\ConsoleOutput), Object(ErrorException))
+#12 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(189): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#13 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#15 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[11-Mar-2025 15:12:09 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(244): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(231): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError(Array, 0)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[11-Mar-2025 15:12:09 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(51): Composer\Autoload\ClassLoader->loadClass('NunoMaduro\\Coll...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(908): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}(Object(Illuminate\Foundation\Application), Array)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build(Object(Closure))
+#7 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(986): Illuminate\Container\Container->resolve('NunoMaduro\\Coll...', Array, true)
+#8 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve('NunoMaduro\\Coll...', Array)
+#9 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(971): Illuminate\Container\Container->make('NunoMaduro\\Coll...', Array)
+#10 /home/shahid4uit/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make('NunoMaduro\\Coll...')
+#11 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(207): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole(Object(Symfony\Component\Console\Output\ConsoleOutput), Object(ErrorException))
+#12 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(189): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#13 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(ErrorException))
+#15 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[11-Mar-2025 15:12:09 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/shahid4uit/public_html/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php:576
+Stack trace:
+#0 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#1 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'include(/home/s...', '/home/shahid4ui...', 576)
+#2 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(576): include('/home/shahid4ui...')
+#3 /home/shahid4uit/public_html/vendor/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/shahid4ui...')
+#4 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(244): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#5 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(231): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError(Array, 0)
+#6 /home/shahid4uit/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/shahid4uit/public_html/vendor/composer/ClassLoader.php on line 576
+[13-Mar-2025 06:03:02 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[13-Mar-2025 06:03:07 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[13-Mar-2025 06:03:07 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:11:40 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:11:58 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:12:13 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:15:30 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:15:39 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:15:47 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:16:05 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:41:04 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:41:08 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:41:13 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:41:19 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:48:47 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:48:50 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:48:55 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 13:49:02 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:00:20 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:00:22 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:00:28 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:00:34 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:01:40 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:03:32 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:03:43 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:04:00 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:11:16 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:11:19 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:11:28 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:11:36 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:25:25 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:25:31 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:25:35 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:25:41 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:25:47 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:41:22 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:41:28 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:41:36 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:41:44 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:42:00 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:57:35 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 14:58:41 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 15:01:18 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 15:01:24 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 15:01:30 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 15:01:37 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 15:04:02 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0
+[05-Apr-2025 15:04:14 UTC] PHP Warning:  PHP Startup: session.gc_divisor must be greater than 0 in Unknown on line 0

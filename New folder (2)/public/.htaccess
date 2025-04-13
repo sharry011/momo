@@ -1,0 +1,187 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+#    RewriteOptions AllowEncodedSlashes
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+
+    <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz|css)$">
+        Header set Cache-Control "max-age=96592000, public"
+    </FilesMatch>
+
+    <FilesMatch "\.(js)$">
+        Header set Cache-Control "max-age=31560000, private"
+    </FilesMatch>
+
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "max-age=96592000, public"
+    </FilesMatch>
+
+    # Disable caching for scripts and other dynamic files
+    # <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+    # Header unset Cache-Control
+    # </FilesMatch>
+</IfModule>
+
+# BEGIN Gzip compression htaccess
+<IfModule mod_deflate.c>
+  # Compress HTML, CSS, JavaScript, Text, XML, and fonts
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+  # Remove browser bugs (only needed for really old browsers)
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  Header append Vary User-Agent
+</IfModule>
+# END Gzip compression htaccess
+
+# BEGIN Connection keep-alive
+<ifModule mod_headers.c>
+Header set Connection keep-alive
+</ifModule>
+# END Connection keep-alive
+
+# BEGIN GZIP COMPRESSION
+<IfModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+mod_gzip_item_include handler ^cgi-script$
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_include mime ^application/x-javascript.*
+mod_gzip_item_exclude mime ^image/.*
+mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</IfModule>
+# END GZIP COMPRESSION
+
+# START ADD EXPIRES HEADERS #
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresByType image/svg+xml "access plus 1 month"
+ExpiresByType audio/ogg "access plus 1 year"
+ExpiresByType video/mp4 "access plus 1 year"
+ExpiresByType video/ogg "access plus 1 year"
+ExpiresByType video/webm "access plus 1 year"
+ExpiresByType application/atom+xml "access plus 1 hour"
+ExpiresByType application/rss+xml "access plus 1 hour"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType application/javascript "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType text/x-component "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType font/opentype "access plus 1 month"
+ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+ExpiresByType application/x-font-ttf "access plus 1 month"
+ExpiresByType application/font-woff "access plus 1 month"
+ExpiresByType application/font-woff2 "access plus 1 month"
+ExpiresDefault "access 1 month"
+</IfModule>
+# END ADD EXPIRES HEADERS #
+
+# BEGIN DEFLATE COMPRESSION
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE "application/atom+xml" \
+"application/javascript" \
+"application/json" \
+"application/ld+json" \
+"application/manifest+json" \
+"application/rdf+xml" \
+"application/rss+xml" \
+"application/schema+json" \
+"application/vnd.geo+json" \
+"application/vnd.ms-fontobject" \
+"application/x-font-ttf" \
+"application/x-javascript" \
+"application/x-web-app-manifest+json" \
+"application/xhtml+xml" \
+"application/xml" \
+"font/eot" \
+"font/opentype" \
+"image/bmp" \
+"image/svg+xml" \
+"image/vnd.microsoft.icon" \
+"image/x-icon" \
+"text/cache-manifest" \
+"text/css" \
+"text/html" \
+"text/javascript" \
+"text/plain" \
+"text/vcard" \
+"text/vnd.rim.location.xloc" \
+"text/vtt" \
+"text/x-component" \
+"text/x-cross-domain-policy" \
+"text/xml"
+</IfModule>
+# END DEFLATE COMPRESSION
+
+##### Set Header Vary: Accept-Encoding
+<IfModule mod_headers.c>
+    <FilesMatch ".(js|css|xml|gz|html)$">
+        Header append Vary: Accept-Encoding
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+# mod_deflate is enabled
+</IfModule>
+
+<IfModule Litespeed>
+CacheEngine on esi crawler
+</IfModule>
+
+
+<IfModule LiteSpeed>
+CacheEnable public
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^GET|HEAD$
+RewriteCond %{HTTP_HOST} ^shaed4u.net [NC]
+RewriteCond %{REQUEST_URI} !login|admin|register|post|cron
+RewriteCond %{QUERY_STRING} !nocache
+RewriteRule .* - [E=Cache-Control:max-age=120]
+</IfModule>

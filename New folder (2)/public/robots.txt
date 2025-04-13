@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Disallow: /download/*
+Disallow: /data_provider/*
+Disallow: /server/*
+Disallow: /director/*
+Disallow: /writer/*
+Disallow: /actor/*
+Disallow: /release-year/*
+Disallow: /quality/*
+Disallow: /watch/*
+
+Sitemap: https://shaed4u.net/sitemap-index.xml
+Sitemap: https://shaed4u.net/rss.xml

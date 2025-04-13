@@ -1,0 +1,8 @@
+[28-Dec-2024 13:21:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/shiid4u/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Kernel.php on line 7
+[28-Dec-2024 13:22:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Kernel" not found in /home/shiid4u/public_html/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Kernel.php on line 7

@@ -1,0 +1,22 @@
+[28-Dec-2024 13:20:18 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/shiid4u/public_html/app/Http/Controllers/AdminController.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Controllers/AdminController.php on line 28
+[28-Dec-2024 13:20:20 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/shiid4u/public_html/app/Http/Controllers/AdminController.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Controllers/AdminController.php on line 28
+[28-Dec-2024 13:21:31 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/shiid4u/public_html/app/Http/Controllers/AdminController.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Controllers/AdminController.php on line 28
+[28-Dec-2024 13:21:33 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/shiid4u/public_html/app/Http/Controllers/UserController.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Controllers/UserController.php on line 21
+[28-Dec-2024 13:21:35 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in /home/shiid4u/public_html/app/Http/Controllers/dataProviderController.php on line 55
+[28-Dec-2024 13:21:35 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in /home/shiid4u/public_html/app/Http/Controllers/dataProviderController.php on line 55
+[28-Dec-2024 13:21:35 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/shiid4u/public_html/app/Http/Controllers/dataProviderController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Controllers/dataProviderController.php on line 18

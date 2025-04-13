@@ -1,0 +1,32 @@
+[28-Dec-2024 13:20:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/shiid4u/public_html/app/Models/Season.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Models/Season.php on line 8
+[28-Dec-2024 13:21:54 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/shiid4u/public_html/app/Models/Post.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Models/Post.php on line 8
+[28-Dec-2024 13:22:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/shiid4u/public_html/app/Models/DownServer.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Models/DownServer.php on line 8
+[28-Dec-2024 13:22:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/shiid4u/public_html/app/Models/Quality.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Models/Quality.php on line 8
+[28-Dec-2024 13:22:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/shiid4u/public_html/app/Models/Serie.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Models/Serie.php on line 8
+[28-Dec-2024 13:22:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/shiid4u/public_html/app/Models/Serie.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Models/Serie.php on line 8
+[28-Dec-2024 13:22:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/shiid4u/public_html/app/Models/Serie.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Models/Serie.php on line 8
+[28-Dec-2024 13:23:03 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/shiid4u/public_html/app/Models/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Models/Category.php on line 8

@@ -1,0 +1,16 @@
+[28-Dec-2024 13:21:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Cookie\Middleware\EncryptCookies" not found in /home/shiid4u/public_html/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Middleware/EncryptCookies.php on line 7
+[28-Dec-2024 13:21:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\TrimStrings" not found in /home/shiid4u/public_html/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Middleware/TrimStrings.php on line 7
+[28-Dec-2024 13:21:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\Middleware\VerifyCsrfToken" not found in /home/shiid4u/public_html/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[28-Dec-2024 13:21:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Routing\Middleware\ValidateSignature" not found in /home/shiid4u/public_html/app/Http/Middleware/ValidateSignature.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/shiid4u/public_html/app/Http/Middleware/ValidateSignature.php on line 7
